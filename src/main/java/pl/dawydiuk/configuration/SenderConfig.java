@@ -33,6 +33,11 @@ public class SenderConfig {
     }
 
     @Bean
+    public ProducerFactory<String, String> producerwwwFactory() {
+        return new DefaultKafkaProducerFactory<>(producerConfigs());
+    }
+
+    @Bean
     public KafkaTemplate<String, String> kafkaTemplate() {
         return new KafkaTemplate<>(producerFactory());
     }
