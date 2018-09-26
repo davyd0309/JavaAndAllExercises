@@ -23,4 +23,9 @@ public class Sender {
         log.info("sending message='{}' to topic='{}'", message, topic);
         kafkaTemplate.send(topic, message);
     }
+
+    public void send22(String message) {
+        log.info("sending message='{}' to topic='{}'", message, topic);
+        kafkaTemplate.send(topic, message);
+    }
 }
