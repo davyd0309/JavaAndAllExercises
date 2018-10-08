@@ -42,4 +42,9 @@ public class SenderConfig {
         return new KafkaTemplate<>(producerFactory());
     }
 
+    @Bean
+    public KafkaTemplate<String, String> kafkaTemsssplate() {
+        return new KafkaTemplate<>(producerFactory());
+    }
+
 }
