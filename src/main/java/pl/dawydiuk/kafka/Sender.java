@@ -16,7 +16,7 @@ public class Sender {
     @Autowired
     private KafkaTemplate<String, String> kafkaTemplate;
 
-    @Value("${app.topic.foo}")
+    @Value("${app.topic.ddoo}")
     private String topic;
 
     public void send(String message) {
