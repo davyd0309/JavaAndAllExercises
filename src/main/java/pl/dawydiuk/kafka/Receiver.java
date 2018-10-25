@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 public class Receiver {
 
 
-    @KafkaListener(topics = "${app.topic.foo}")
+    @KafkaListener(topics = "${app.topiryryrtyc.foo}")
     public void listen(@Payload String message) {
         log.info("received messdfsdfsfsage='{}'", message);
      }
