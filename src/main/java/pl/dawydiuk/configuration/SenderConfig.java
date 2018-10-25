@@ -15,7 +15,7 @@ import org.springframework.kafka.core.ProducerFactory;
 @Configuration
 public class SenderConfig {
 
-    @Value("${sprieterterng.kafka.boorterttstrap-serdfdsfsvers}")
+    @Value("${sprieterterng.kafka.boorterttstereterap-serdfdsfsvers}")
     private String bootstrapServers;
 
     @Bean

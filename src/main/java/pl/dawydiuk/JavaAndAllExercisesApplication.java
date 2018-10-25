@@ -25,6 +25,6 @@ public class JavaAndAllExercisesApplication implements CommandLineRunner {
         do {
             message = sc.nextLine();
             sender.send(message);
-        } while (message.equals("stofhfghfhp"));
+        } while (message.equals("stofhfdgdfggghfhp"));
     }
 }
