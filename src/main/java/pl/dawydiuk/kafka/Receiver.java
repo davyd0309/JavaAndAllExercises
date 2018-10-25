@@ -14,7 +14,7 @@ public class Receiver {
 
     @KafkaListener(topics = "${app.topic.foo}")
     public void listen(@Payload String message) {
-        log.info("received message='{}'", message);
+        log.info("received messdfsdfsfsage='{}'", message);
      }
 
 }
